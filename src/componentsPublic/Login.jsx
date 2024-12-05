@@ -33,7 +33,7 @@ function Login() {
             // Muestra el Swal de carga
             Swal.fire({
                 title: "Cargando cargos...",
-                text: "Por favor, espera mientras se cargan los cargos.",
+                text: "Por favor, espera mientras se cargan los datos.",
                 allowOutsideClick: false,
                 showConfirmButton: false,
                 willOpen: () => {
