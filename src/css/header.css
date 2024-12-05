@@ -1,0 +1,23 @@
+.encabezado-header {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: rgba(235, 240, 244, 0.8); /* color con transparencia */
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(3px) contrast(0.8) saturate(1.2);
+  z-index: 1;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  filter: opacity(0.9) brightness(1.1); /* ajuste para dar un toque de textura */
+}
+
+.encabezado-header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.encabezado-header .iconos-izquierda {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
